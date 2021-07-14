@@ -19,6 +19,7 @@ instead!
 3. Complete the unit test functions and verify that all is working as expected.
 -----------------------------------------------------------------------------*/
 const cartForParty = {
+  // TODO complete this object
   beer: 2,
   bread: 3,
   cheese: 5.3,
@@ -35,12 +36,11 @@ function calculateTotalPrice(object) {
 
 function test1() {
   console.log('\nTest 1: calculateTotalPrice should take one parameter');
-  console.log(calculateTotalPrice(cartForParty));
+  console.assert(calculateTotalPrice.length === 1);
 }
-
 function test2() {
   console.log('\nTest 2: return correct output when passed cartForParty');
-  console.log(calculateTotalPrice(cartForParty));
+  console.assert(calculateTotalPrice(cartForParty));
 }
 
 function test() {
