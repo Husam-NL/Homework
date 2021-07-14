@@ -11,11 +11,13 @@ calculate it!
   - Return a string: "Your doggie is `age` years old in dog years!"
 
 2. Use `console.log` to display the result of the function for three different
-   ages.
+ages.
 -----------------------------------------------------------------------------*/
 
-function calculateDogAge(/* parameters go here */) {
+function calculateDogAge(humanYear) {
   // TODO complete this function
+  const dogYear = humanYear * 7;
+  return `Your doggie is ${dogYear} years old in dog years!`;
 }
 
 console.log(calculateDogAge(1)); // -> "Your doggie is 7 years old in dog years!"

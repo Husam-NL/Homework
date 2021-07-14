@@ -1,0 +1,202 @@
+2021-07-14 03:15:49 info: ----------------------------------------------
+2021-07-14 03:15:49 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-14 03:15:49 info: ----------------------------------------------
+2021-07-14 03:15:55 info: All unit tests passed.
+2021-07-14 03:15:59 info: All steps were completed successfully
+2021-07-14 03:17:20 info: ----------------------------------------------
+2021-07-14 03:17:20 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-14 03:17:20 info: ----------------------------------------------
+2021-07-14 03:17:25 info: All unit tests passed.
+2021-07-14 03:17:28 info: All steps were completed successfully
+2021-07-14 03:21:52 info: ----------------------------------------------
+2021-07-14 03:21:52 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-14 03:21:52 info: ----------------------------------------------
+2021-07-14 03:21:57 info: All unit tests passed.
+2021-07-14 03:22:00 info: All steps were completed successfully
+2021-07-14 03:23:46 info: ----------------------------------------------
+2021-07-14 03:23:46 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-14 03:23:46 info: ----------------------------------------------
+2021-07-14 03:23:50 info: All unit tests passed.
+2021-07-14 03:23:54 info: All steps were completed successfully
+2021-07-14 03:25:45 info: ----------------------------------------------
+2021-07-14 03:25:46 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-14 03:25:46 info: ----------------------------------------------
+2021-07-14 03:25:50 info: All unit tests passed.
+2021-07-14 03:25:54 info: All steps were completed successfully
+2021-07-14 03:28:46 info: ----------------------------------------------
+2021-07-14 03:28:46 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-14 03:28:46 info: ----------------------------------------------
+2021-07-14 03:28:51 info: All unit tests passed.
+2021-07-14 03:28:54 info: All steps were completed successfully
+2021-07-14 03:30:17 info: ----------------------------------------------
+2021-07-14 03:30:17 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-14 03:30:17 info: ----------------------------------------------
+2021-07-14 03:30:21 info: All unit tests passed.
+2021-07-14 03:30:25 info: All steps were completed successfully
+2021-07-14 03:35:15 info: ----------------------------------------------
+2021-07-14 03:35:15 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-14 03:35:15 info: ----------------------------------------------
+2021-07-14 03:35:19 info: All unit tests passed.
+2021-07-14 03:35:23 info: All steps were completed successfully
+2021-07-14 03:36:12 info: ----------------------------------------------
+2021-07-14 03:36:12 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-14 03:36:12 info: ----------------------------------------------
+2021-07-14 03:36:17 info: All unit tests passed.
+2021-07-14 03:36:21 info: All steps were completed successfully
+2021-07-14 03:37:25 info: ----------------------------------------------
+2021-07-14 03:37:25 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-14 03:37:25 info: ----------------------------------------------
+2021-07-14 03:37:30 info: All unit tests passed.
+2021-07-14 03:37:33 info: All steps were completed successfully
+2021-07-14 03:39:14 info: ----------------------------------------------
+2021-07-14 03:39:14 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-14 03:39:14 info: ----------------------------------------------
+2021-07-14 03:39:18 info: All unit tests passed.
+2021-07-14 03:39:22 info: All steps were completed successfully
+2021-07-14 03:46:42 info: ----------------------------------------------
+2021-07-14 03:46:42 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-14 03:46:42 info: ----------------------------------------------
+2021-07-14 03:46:47 info: All unit tests passed.
+2021-07-14 03:46:50 info: All steps were completed successfully
+2021-07-14 03:51:55 info: ----------------------------------------
+2021-07-14 03:51:55 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-07-14 03:51:55 info: ----------------------------------------
+2021-07-14 03:52:01 error: *** Unit Test Error Report ***
+
+- calculateDogAge should give 7 dog years for 1 human year
+  Expected: Your doggie is 7 years old in dog years!
+  Received: your doggie is 7 years old in dog years!
+- calculateDogAge should give 14 dog years for 2 human years
+  Expected: Your doggie is 14 years old in dog years!
+  Received: your doggie is 14 years old in dog years!
+- calculateDogAge give 21 dog years for 3 human years
+  Expected: Your doggie is 21 years old in dog years!
+  Received: your doggie is 21 years old in dog years!
+)
+2021-07-14 03:53:44 info: Disclaimer turned off
+2021-07-14 03:54:17 info: ----------------------------------------
+2021-07-14 03:54:17 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-07-14 03:54:17 info: ----------------------------------------
+2021-07-14 03:54:25 error: *** Unit Test Error Report ***
+
+- calculateDogAge should give 7 dog years for 1 human year
+  Expected: Your doggie is 7 years old in dog years!
+  Received: your doggie is 7 years old in dog years!
+- calculateDogAge should give 14 dog years for 2 human years
+  Expected: Your doggie is 14 years old in dog years!
+  Received: your doggie is 14 years old in dog years!
+- calculateDogAge give 21 dog years for 3 human years
+  Expected: Your doggie is 21 years old in dog years!
+  Received: your doggie is 21 years old in dog years!
+)
+2021-07-14 03:56:30 info: ----------------------------------------
+2021-07-14 03:56:30 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-07-14 03:56:30 info: ----------------------------------------
+2021-07-14 03:56:36 info: All unit tests passed.
+2021-07-14 03:56:41 info: All steps were completed successfully
+2021-07-14 03:57:30 info: -------------------------------------------
+2021-07-14 03:57:30 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-07-14 03:57:30 info: -------------------------------------------
+2021-07-14 03:57:36 error: *** Unit Test Error Report ***
+
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a accountant in Amsterdam, married to Paula with 1 kids.
+  Received: you will be accountant in Amsterdam, married to Paula with 1 kids
+)
+2021-07-14 03:58:57 info: -------------------------------------------
+2021-07-14 03:58:57 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-07-14 03:58:57 info: -------------------------------------------
+2021-07-14 03:59:04 error: *** Unit Test Error Report ***
+
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a accountant in Amsterdam, married to Paula with 1 kids.
+  Received: You will be a accountant in Amsterdam, married to Paula with 1 kids
+)
+2021-07-14 03:59:43 info: -------------------------------------------
+2021-07-14 03:59:43 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-07-14 03:59:43 info: -------------------------------------------
+2021-07-14 03:59:49 info: All unit tests passed.
+2021-07-14 03:59:54 info: All steps were completed successfully
+2021-07-14 04:01:51 info: --------------------------------------------
+2021-07-14 04:01:51 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-07-14 04:01:51 info: --------------------------------------------
+2021-07-14 04:01:51 warn: A unit test file was not provided.
+2021-07-14 04:01:55 info: All steps were completed successfully
+2021-07-14 04:02:39 info: ------------------------------------------------
+2021-07-14 04:02:39 info: >>> Running Unit Test `ex5-shoppingCartPure` <<<
+2021-07-14 04:02:39 info: ------------------------------------------------
+2021-07-14 04:02:39 warn: A unit test file was not provided.
+2021-07-14 04:02:44 info: All steps were completed successfully
+2021-07-14 04:03:44 info: -----------------------------------------
+2021-07-14 04:03:44 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-07-14 04:03:44 info: -----------------------------------------
+2021-07-14 04:03:44 warn: A unit test file was not provided.
+2021-07-14 04:03:46 error: *** ESLint Report ***
+
+ex6-totalCost.js
+  32:3   warning  Avoid `for in` loops. Prefer `Object.keys()` instead  no-restricted-syntax
+  32:8   error    'item' is not defined                                 no-undef
+  33:5   error    'totalPrice' is not defined                           no-undef
+  33:28  error    'item' is not defined                                 no-undef
+  35:20  error    'totalPrice' is not defined                           no-undef
+
+✖ 5 problems (4 errors, 1 warning)
+
+
+2021-07-14 04:07:21 info: -----------------------------------------
+2021-07-14 04:07:21 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-07-14 04:07:21 info: -----------------------------------------
+2021-07-14 04:07:21 warn: A unit test file was not provided.
+2021-07-14 04:07:23 error: *** ESLint Report ***
+
+ex6-totalCost.js
+  30:3   warning  Avoid `for in` loops. Prefer `Object.keys()` instead  no-restricted-syntax
+  30:8   error    'item' is not defined                                 no-undef
+  31:5   error    'totalPrice' is not defined                           no-undef
+  31:28  error    'item' is not defined                                 no-undef
+  33:20  error    'totalPrice' is not defined                           no-undef
+
+✖ 5 problems (4 errors, 1 warning)
+
+
+2021-07-14 04:09:31 info: -----------------------------------------
+2021-07-14 04:09:31 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-07-14 04:09:31 info: -----------------------------------------
+2021-07-14 04:09:31 warn: A unit test file was not provided.
+2021-07-14 04:09:36 info: All steps were completed successfully
+2021-07-14 04:10:15 info: -------------------------------------------
+2021-07-14 04:10:15 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-07-14 04:10:15 info: -------------------------------------------
+2021-07-14 04:10:15 warn: A unit test file was not provided.
+2021-07-14 04:10:17 error: *** ESLint Report ***
+
+ex7-mindPrivacy.js
+  36:16  error  'occupation' is not defined  no-undef
+  36:28  error  'email' is not defined       no-undef
+  37:27  error  'occupation' is not defined  no-undef
+  37:39  error  'email' is not defined       no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+
+2021-07-14 04:11:19 info: -------------------------------------------
+2021-07-14 04:11:19 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-07-14 04:11:19 info: -------------------------------------------
+2021-07-14 04:11:19 warn: A unit test file was not provided.
+2021-07-14 04:11:21 error: *** ESLint Report ***
+
+ex7-mindPrivacy.js
+  34:10  error  Read-only global 'name' should not be modified  no-global-assign
+  34:16  error  'occupation' is not defined                     no-undef
+  34:28  error  'email' is not defined                          no-undef
+  35:27  error  'occupation' is not defined                     no-undef
+  35:39  error  'email' is not defined                          no-undef
+
+✖ 5 problems (5 errors, 0 warnings)
+
+
+2021-07-14 04:12:31 info: -------------------------------------------
+2021-07-14 04:12:31 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-07-14 04:12:31 info: -------------------------------------------
+2021-07-14 04:12:31 warn: A unit test file was not provided.
+2021-07-14 04:12:36 info: All steps were completed successfully

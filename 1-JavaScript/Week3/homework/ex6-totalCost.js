@@ -19,21 +19,28 @@ instead!
 3. Complete the unit test functions and verify that all is working as expected.
 -----------------------------------------------------------------------------*/
 const cartForParty = {
-  // TODO complete this object
+  beer: 2,
+  bread: 3,
+  cheese: 5.3,
+  cola: 2.2,
+  water: 2.39,
 };
 
-function calculateTotalPrice(/* TODO parameter(s) go here */) {
-  // TODO replace this comment with your code
+function calculateTotalPrice(object) {
+  const sumValues = (object) => Object.values(object).reduce((a, b) => a + b);
+  const sum = sumValues(object);
+
+  return 'Total: €' + sum + '.';
 }
 
 function test1() {
   console.log('\nTest 1: calculateTotalPrice should take one parameter');
-  // TODO replace this comment with your code
+  console.log(calculateTotalPrice(cartForParty));
 }
 
 function test2() {
   console.log('\nTest 2: return correct output when passed cartForParty');
-  // TODO replace this comment with your code
+  console.log(calculateTotalPrice(cartForParty));
 }
 
 function test() {
