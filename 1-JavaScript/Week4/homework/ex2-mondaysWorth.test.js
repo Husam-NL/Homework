@@ -27,12 +27,17 @@ const mondayTasks = [
   },
 ];
 const hourlyRate = 25;
-function computeEarnings(arrayOfTasks, hourlyRate) {
-  const rates = arrayOfTasks.map((task) => (task.duration / 60) * hourlyRate);
-  const total = rates.reduce((acc, rate) => acc + rate, 0);
-  return `€${total}`;
+
+// first test did not pass. I do not why but the code is correct as i test it in console.
+function computeEarnings(tasks, rate) {
+  const calculateRate = tasks.map((monday) => (monday.duration / 60) * rate);
+  const total = calculateRate.reduce(
+    (totalEarn, rates) => totalEarn + rates,
+    0
+  );
+  return `€${total.toFixed(2)}`;
 }
-// ! Unit tests (using Jest)
+
 describe('computeEarnings', () => {
   test('should take two parameters', () => {
     // The `.length` property indicates the number of parameters expected by
