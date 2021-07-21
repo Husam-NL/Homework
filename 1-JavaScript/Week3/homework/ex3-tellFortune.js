@@ -44,16 +44,16 @@ const jobTitles = ['accountant', 'Doctor', 'Developer', 'Salesman', 'Manager'];
 // a randomly selected element as its return value.
 function selectRandomly(arr) {
   // TODO complete this function
-  const randomSec = arr[Math.floor(Math.random() * arr.length)];
-  return randomSec;
+
+  return arr[Math.floor(Math.random() * arr.length)];
 }
 
-function tellFortune(arr1, arr2, arr3, arr4) {
+function tellFortune(childName, spouse, area, work) {
   // TODO complete this function
-  const numKid = selectRandomly(arr1);
-  const partnerName = selectRandomly(arr2);
-  const location = selectRandomly(arr3);
-  const jobTitle = selectRandomly(arr4);
+  const numKid = selectRandomly(childName);
+  const partnerName = selectRandomly(spouse);
+  const location = selectRandomly(area);
+  const jobTitle = selectRandomly(work);
   return `You will be a ${jobTitle} in ${location}, married to ${partnerName} with ${numKid} kids.`;
 }
 

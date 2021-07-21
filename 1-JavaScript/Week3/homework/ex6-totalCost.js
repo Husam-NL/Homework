@@ -21,26 +21,30 @@ instead!
 const cartForParty = {
   // TODO complete this object
   beer: 2,
-  bread: 3,
-  cheese: 5.3,
-  cola: 2.2,
-  water: 2.39,
+  bread: 2,
+  cheese: 4,
+  cola: 2,
+  water: 2,
 };
 
-function calculateTotalPrice(object) {
-  const sumValues = (object) => Object.values(object).reduce((a, b) => a + b);
-  const sum = sumValues(object);
+
+function calculateTotalPrice(obj) {
+  const sum = Object.values(obj).reduce((a, b) => a + b);
 
   return 'Total: €' + sum + '.';
 }
-
+console.log(calculateTotalPrice())
 function test1() {
   console.log('\nTest 1: calculateTotalPrice should take one parameter');
+  // TODO replace this comment with your code
   console.assert(calculateTotalPrice.length === 1);
 }
+
 function test2() {
   console.log('\nTest 2: return correct output when passed cartForParty');
-  console.assert(calculateTotalPrice(cartForParty));
+  
+  const totalPrice = calculateTotalPrice(cartForParty);
+  console.assert(totalPrice === 12);
 }
 
 function test() {
