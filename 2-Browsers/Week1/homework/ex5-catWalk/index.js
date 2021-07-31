@@ -18,9 +18,25 @@
    Dancing cat URL:
 
    https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif
------------------------------------------------------------------------------*/
-function catWalk() {
-  // TODO complete this function
-}
+   -----------------------------------------------------------------------------*/
+const img = document.querySelector('img');
+img.style.left = '0px';
 
-// TODO execute `catWalk` when the browser has completed loading the page
+const startTime = new Date().getTime();
+function catWalk() {
+  const currentTime = new Date().getTime();
+  const time = (currentTime - startTime) / 1000;
+  const begin = time * 50;
+  img.style.left = begin + 'px';
+  if (begin < 200) {
+    setTimeout(() => {
+      img.src =
+        'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
+      setInterval(catWalk, 50);
+    }, 5000);
+    window.requestAnimationFrame(catWalk);
+  }
+}
+window.addEventListener('load', () => {
+  setInterval(catWalk, 50);
+});

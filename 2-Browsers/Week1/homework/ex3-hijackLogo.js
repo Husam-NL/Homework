@@ -6,7 +6,13 @@
    HackYourFuture logo instead.
 ------------------------------------------------------------------------------*/
 function hijackGoogleLogo() {
-  // TODO your code goes in here
+  const logoDiv = document.getElementById('hplogo');
+  const googleImage = document.createElement('img');
+
+  googleImage.src = 'https://www.hackyourfuture.dk/static/logo-dark.svg';
+  googleImage.srcset = 'https://www.hackyourfuture.dk/static/logo-dark.svg';
+  logoDiv.innerHTML = '';
+  logoDiv.appendChild(googleImage);
 }
 
 hijackGoogleLogo();

@@ -40,7 +40,53 @@ const myBooks = [
 ];
 
 function createBookList(books) {
-  // TODO your code goes in here, return the ul element
+  // create the ul container of the li items
+  const ul = document.createElement('ul');
+
+  // create children elements of li and p and img for each item in books array,
+  // and write the the condition for background color, and img
+
+  books.forEach((item, i) => {
+    const li = document.createElement('li');
+    const p = document.createElement('p');
+    // create text-nodes  within p
+    p.textContent = `${item.title} - ${item.author}`;
+
+    // condition of the background color .
+    if (item.alreadyRead === true) {
+      li.style.backgroundColor = 'green';
+    } else {
+      li.style.backgroundColor = 'red';
+    }
+    // creating images .
+    const img = document.createElement('img');
+    img.style.width = '200px';
+    if (i === 0) {
+      img.src = 'assets/the_design_of_everyday_things.jpg';
+      img.alt = 'book title';
+    } else if (i === 1) {
+      img.src = 'assets/the_most_human_human.jpg';
+      img.alt = 'book title';
+    } else {
+      img.src = 'assets/the_pragmatic_programmer.jpg';
+      img.alt = 'book title';
+    }
+    // appending children.
+    ul.appendChild(li);
+    li.appendChild(p);
+    li.appendChild(img);
+    // li styling
+    li.style.width = '300px';
+    li.style.margin = '30px';
+  });
+  // styling UL
+  ul.style.listStyle = 'none';
+  ul.style.display = 'flex';
+  ul.style.justifyContent = 'space-evenly';
+  ul.style.width = '100%';
+  ul.style.margin = 'auto';
+
+  return ul;
 }
 
 const ulElement = createBookList(myBooks);

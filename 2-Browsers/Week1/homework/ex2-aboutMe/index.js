@@ -8,4 +8,17 @@
    `list-item`.
 ------------------------------------------------------------------------------*/
 
-// TODO add your JavaScript code here.
+document.body.style.fontFamily = 'Arial,sans-serif';
+
+const info1 = document.getElementById('nickname');
+info1.textContent = 'Husam';
+const info2 = document.getElementById('fav-food');
+info2.textContent = 'Pizza ';
+const info3 = document.getElementById('hometown');
+info3.textContent = 'Lattakia';
+
+// looping and add className
+const listItem = document.getElementsByTagName('li');
+for (let i = 0; i < listItem.length; i++) {
+  listItem[i].className += 'list-item';
+}
